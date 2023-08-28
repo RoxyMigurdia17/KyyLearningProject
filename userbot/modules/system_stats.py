@@ -170,7 +170,7 @@ async def amireallyalive(alive):
     user = await alive.client.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        f"**[KyyLearningProject](https://github.com/RoxyMigurdia17/KyyLearningProject) is Up and Running.**\n\n"
+        f"**[KL-Project](https://github.com/RoxyMigurdia17/KyyLearningProject) is Up and Running.**\n\n"
         f"**{alive_text}**\n\n"
         f"{emoji} **Master :** [{user.first_name}](tg://user?id={user.id}) \n"
         f"{emoji} **Modules :** `{len(modules)} Modules` \n"
