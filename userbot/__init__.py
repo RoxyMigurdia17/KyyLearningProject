@@ -82,7 +82,7 @@ if version_info[0] < 3 or version_info[1] < 8:
     sys.exit(1)
 
 if CONFIG_CHECK := os.environ.get(
-    None
+   "lalala", None
 ):
     LOGS.info(
         "Harap hapus baris yang disebutkan dalam tagar pertama dari file config.env"
