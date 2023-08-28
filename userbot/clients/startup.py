@@ -32,8 +32,8 @@ from userbot import (
 )
 from userbot.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\nMan-UserBot v{}, Copyright © 2021-2022 ʀɪsᴍᴀɴ• <https://github.com/mrismanaziz>"
-MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nMan-UserBot v{}, Copyright © 2021-2022 ʀɪsᴍᴀɴ• <https://github.com/mrismanaziz>"
+EOL = "EOL\nKyyLearningProject v{}, Copyright © 2021-2022 ʀɪsᴍᴀɴ• <https://github.com/RoxyMigurdia17>"
+MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nKyyLearningProject v{}, Copyright © 2021-2022 ʀɪsᴍᴀɴ• <https://github.com/RoxyMigurdia17>"
 
 
 async def man_client(client):
