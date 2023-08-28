@@ -3,9 +3,9 @@
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 #
-# Recode by @mrismanaziz
-# FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
-# t.me/SharingUserbot & t.me/Lunatic0de
+# Recode by @RoxyMigurdia17
+# FROM KyyLearningProject <https://github.com/RoxyMigurdia17/KyyLearningProject>
+# t.me/KyyLearningSupport & t.me/KyyLearningChannel
 
 import sys
 
