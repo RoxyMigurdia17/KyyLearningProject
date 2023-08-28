@@ -49,10 +49,12 @@ async def okgoogle(img):
     image.save(name, "PNG")
     image.close()
     # https://stackoverflow.com/questions/23270175/google-reverse-image-search-using-post-request#28792943
+    filePath = '/mnt/Images/test.png'
     searchUrl = "https://www.google.com/searchbyimage/upload"
     multipart = {"encoded_image": (name, open(name, "rb")), "image_content": ""}
     response = requests.post(searchUrl, files=multipart, allow_redirects=False)
     fetchUrl = response.headers["Location"]
+    webbrowser.open(fetchUrl)
     if response == 400:
         return await xx.edit("`Google menyuruhku pergi.`")
     await xx.edit(
