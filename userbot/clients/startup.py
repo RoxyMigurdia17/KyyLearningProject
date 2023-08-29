@@ -32,7 +32,7 @@ from userbot import (
 )
 from userbot.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\nKyyLearningProject v{}, Copyright © 2021-2022 ʀɪsᴍᴀɴ• <https://github.com/RoxyMigurdia17>"
+EOL = "EOL\nKyyLearningProject v{}, Copyright © 2021-2022 Kyy• <https://github.com/RoxyMigurdia17>"
 MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nKyyLearningProject v{}, Copyright © 2021-2022 ʀɪsᴍᴀɴ• <https://github.com/RoxyMigurdia17>"
 
 
