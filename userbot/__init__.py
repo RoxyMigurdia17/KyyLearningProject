@@ -82,7 +82,7 @@ if version_info[0] < 3 or version_info[1] < 8:
     sys.exit(1)
 
 if CONFIG_CHECK := os.environ.get(
-   "lalala", None
+   "___________PLOX_______REMOVE_____THIS_____LINE__________", None
 ):
     LOGS.info(
         "Harap hapus baris yang disebutkan dalam tagar pertama dari file config.env"
@@ -219,7 +219,7 @@ ALIVE_LOGO = (
 )
 
 INLINE_PIC = (
-    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/e4ca12965bf1a5e713a9d.pnghttps://telegra.ph/file/e4ca12965bf1a5e713a9d.png"
+    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/e4ca12965bf1a5e713a9d.png"
 )
 
 # Picture For VCPLUGIN
@@ -281,7 +281,7 @@ del _WHITELIST
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "KyliaAssistanceBot"
+    session = "KyyLearningProject"
 try:
     bot = TelegramClient(
         session=session,
@@ -533,7 +533,7 @@ with bot:
                     description="Repository KyyLearningProject",
                     url="https://t.me/KyyLearningSupport",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text="**KyyLearningProject**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Wednesday](https://t.me/Phoebeatwell17)\n✣ **Support :** @KyyLearningChannel\n✣ **Repository :** [KyyLearningProject](https://github.com/RoxyMigurdia17/KyyLearningProject)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**KyyLearningProject**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Kyy Learning](https://t.me/KyyLearning27)\n✣ **Support :** @KyyLearningChannel\n✣ **Repository :** [KyyLearningProject](https://github.com/RoxyMigurdia17/KyyLearningProject)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/KyyLearningSupport"),

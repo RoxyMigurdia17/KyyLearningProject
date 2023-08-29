@@ -12,7 +12,7 @@ async def usit(event):
         f"**Hai {me.first_name} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
         f"✣ **Group Support :** [Kyy Support Group](t.me/KyyLearningSupport)\n"
         f"✣ **Channel Man :** [Kyy Support Channel](t.me/KyyLearningChannel)\n"
-        f"✣ **Owner Repo :** [Wednesday](t.me/Phoebeatwell17)\n"
+        f"✣ **Owner Repo :** [Kyy Learning](t.me/KyyLesrning27)\n"
         f"✣ **Repo :** [KyyLearningProject](https://github.com/RoxyMigurdia17/KyyLearningProject)\n",
     )
 
